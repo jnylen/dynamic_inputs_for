@@ -27,7 +27,7 @@ defmodule DynamicInputsFor.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:phoenix_html, ">= 2.14"},
+      {:phoenix_html, "~> 2.14 or ~> 3.0"},
       {:ex_doc, "~> 0.21", only: :dev, runtime: false}
     ]
   end
